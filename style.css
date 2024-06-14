@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 10px;
+    padding: 10px 0px;
     box-sizing: border-box;
 }
 
@@ -16,8 +16,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: white;
-    
+    color: white; 
 }
 
 
@@ -40,6 +39,7 @@ nav a{
     background-color: black;
     padding: 10px 15px;
     border-radius: 25px;
+    margin: 10px;
 }
 
 .education ul{
@@ -84,6 +84,7 @@ nav a{
 
 .pjs{
     margin: 30px 0px;
+    padding: 0px 10vw;
 }
 
 .pjs img{
@@ -93,4 +94,36 @@ nav a{
 
 .pjs p{
     padding-left: 20px;
+}
+
+@media screen and (max-width : 1008px) {
+    body{
+        margin: 0vw 15vw;
+    }
+}
+
+
+@media screen and (min-width : 1009px) {
+    body{
+        margin: 0vw 15vw;
+    }
+
+    nav{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .about-links{
+        flex-flow: column;
+    }
+
+    .about-links button{
+       padding: 10px;
+    }
+
+    .pjs{
+        padding-left: 20px;
+    }
+
 }
