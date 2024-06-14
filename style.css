@@ -96,6 +96,14 @@ nav a{
     padding-left: 20px;
 }
 
+#menu{
+    display: none;
+}
+
+#nav{
+    display: none;
+}
+
 @media screen and (max-width : 1008px) {
     body{
         margin: 0vw 15vw;
@@ -124,6 +132,21 @@ nav a{
 
     .pjs{
         padding-left: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
+    header{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #nav{
+        display: none;
+        padding-left: 30px;
+    }
+  
 }
