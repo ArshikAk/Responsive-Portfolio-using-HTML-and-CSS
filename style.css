@@ -21,9 +21,9 @@ nav a{
 
 
 .about img{
-    height: 70px;
-    width: 70px;
-    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .about-links{
@@ -147,6 +147,13 @@ nav a{
     #nav{
         display: none;
         padding-left: 30px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   
 }
